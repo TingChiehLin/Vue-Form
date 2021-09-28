@@ -60,7 +60,9 @@ export default {
     submitForm() {
 
       this.$emit('set-data', this.userName, this.referrer, this.interest);
-
+      // if (this.userName === "") {
+      //   console
+      // }
       console.log('========UserName========');
       console.log('UserName:', this.userName);
       console.log('========Referrer========');
